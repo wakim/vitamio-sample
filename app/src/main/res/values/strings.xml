@@ -3,4 +3,57 @@
     <string name="uri">URI</string>
     <string name="go">Ir</string>
     <string name="open">Abrir</string>
+    <string name="or">Ou</string>
+
+    <!-- Lista do site http://www.tvonlinestreams.com/ -->
+    <string-array name="rmtp_uris">
+
+        <item>Türk Sanat Müzigi</item>
+        <item>rtmp://79.125.5.214:1935/live/tex</item>
+        <item>rtmp://79.125.5.214:1935/live/tex4</item>
+        <item>rtmp://79.125.5.214:1935/live/tex5</item>
+        <item>rtmp://79.125.5.214:1935/live/tex10</item>
+        <item>rtmp://79.125.5.214:1935/live/tex16</item>
+        <item>rtmp://79.125.5.214:1935/live/tex17</item>
+
+        <item>Italian channels</item>
+        <item>rtmp://5.189.144.85/live?auth=da0068cea060abc1dfe9bbbb20ac5dae1705f614c3cc60c58e4782c40e874a12//canale5</item>
+        <item>rtmp://5.189.144.85/live?auth=575bec9a94c890947e72f40e01f6a91efba055eaa6f9a27f551c9145109a6dc5//italia1</item>
+        <item>rtmp://5.189.144.85/live?auth=a6577f98f205bccf500fc0852d3161eb37ecba26f0daaf7b7abacc64c974b30f//rai1</item>
+        <item>rtmp://5.189.144.85/live?auth=d2829c3f6927664d05cec1cef83eb8b1e1d61dca9379d1ab93b376519eee2eef//rai2</item>
+        <item>rtmp://5.189.144.85/live?auth=5b4893d9bc7978d2852ad15878de0086566681b2e8204eb9806d26afa87b1dee//rete4</item>
+        <item>rtmp://5.189.144.85/live?auth=506df7a38e7770922fac0d6221af623602f35b5cb0ab22cae796f19cc4d4607b//boing</item>
+        <item>rtmp://5.189.144.85/live?auth=29d9403ce21fa76dfe67d45b6b71cb55ef8277849b8395bc73dcdf9bc765b46e//rai4</item>
+        <item>rtmp://5.189.144.85/live?auth=90a31afbb382ffba2b1e03b773b2ecc51d0562cef446e5efd09c1ec16ba5c2d0//iris</item>
+        <item>rtmp://5.189.144.85/live?auth=708761a888c1b97120e1e0003e81f2ef45893777bbf9c7cf4f5a3e9947962ee6//rai3</item>
+        <item>rtmp://5.189.144.85/live?auth=94c1874041a5ab79a6ad0dbe60039ccfb41a19cf6db5d0d3b580d0ba44a410f5//rsila2</item>
+        <item>rtmp://5.189.144.85/live?auth=c27439b29e5c7e51ecf496f999d85ae64c9c6f004369c2056060ec9514bb7c22//la5</item>
+        <item>rtmp://5.189.144.85/live?auth=36ae2b566a349dad074f5a1919cc435c771c4570a50dbf358a6d53f201742ff0//rsila1</item>
+        <item>rtmp://5.189.144.85/live?auth=db5ee9e9716583cdb0118b16b541d8045f8709a22f1a3525415ece8562ea702d//rainews</item>
+
+        <item>English channels</item>
+        <item>rtmp://5.189.144.85/live?auth=31aa1bd925e72495da4650946e89ba9c497ad64b822375676ce2bc1838200ebb//bbc1</item>
+        <item>rtmp://5.189.144.85/live?auth=483bb3e4ae1a4bfbe38985bbf619fb52edafb9dadbb677154ca58a4ce1074d4e//itv1_hd</item>
+        <item>rtmp://5.189.144.85/live?auth=c0a713e3d6a19edb116a68f680c54c7ac514b6c79da2f77fafcaee7ba5f43bd9//skynewsint</item>
+        <item>rtmp://5.189.144.85/live?auth=0cf9eff5de44601e96197e48410e73df62dacb496c4bbc8aab815f88b2a04706//bbc4</item>
+        <item>rtmp://5.189.144.85/live?auth=b5cc15048f334b24126984de8811e44092ea074ac80675b6ba4f81ed70c880eb//channel4</item>
+        <item>rtmp://5.189.144.85/live?auth=90c5785ff88db7fe689f2b0b17cfb801c85b575f14364ea37e34f58c4149285b//cnn</item>
+        <item>rtmp://5.189.144.85/live?auth=7ce8761bb61dc4ef5a30ebdd737a9f9fb15fa2bbb0abb4406095536c3249ecfa//bbc3</item>
+        <item>rtmp://5.189.144.85/live?auth=4a67862d9c6cacae0a6424e184be796d42174021488d3b5a667f023a09ec4b36//the_box</item>
+        <item>rtmp://5.189.144.85/live?auth=5ce26626f5f66ac820093302298511f6b9f97f4153aa260f215405d2340160e3//bbcworldnews</item>
+        <item>rtmp://5.189.144.85/live?auth=2ce565a89830ba320e293c1b9ddaadb332fadad4985c35a082814c3792fbd780//heartv</item>
+        <item>rtmp://5.189.144.85/live?auth=a122483798b2e4ca811974a125e17ed002cf8632106b562550510c65d1fccd77//capitaltv</item>
+        <item>rtmp://5.189.144.85/live?auth=85d043da48a908492a56d9152c5d261470401d86e2272a090fe4b4fc9d4fd397//planetpop</item>
+        <item>rtmp://5.189.144.85/live?auth=8509f7fa0a0f0912d2702d4b2908dc03d64241fba500fbb876ecb06101e8ce37//bliss</item>
+        <item>rtmp://5.189.144.85/live?auth=71194fa7f690245c76cd09bf4bdefff00524d7878994aa8a1305bc04549865e9//flava</item>
+
+        <item>German channels</item>
+        <item>rtmp://5.189.144.85/live?auth=122c83469d1e8b37eea4358e14589a377921a09e96b34b349bacec1ec950bbd6//sport1</item>
+        <item>rtmp://5.189.144.85/live?auth=a35248be6db3c9c87dc58a60463ca44c168250b50e9af0e97bd28f0ed0b2a3ac//eurosport_de</item>
+        <item>rtmp://5.189.144.85/live?auth=4b7111dee73eec1dbba709c65a1ce9d39921d54773d0795dee39a2e850879f10//dmax_ch</item>
+        <item>rtmp://5.189.144.85/live?auth=6f50c765572a764a3e4845e5b0e6f1d426ff0bf4880272a7462e7307b657a2f7//nickelodeon</item>
+        <item>rtmp://5.189.144.85/live?auth=9887fe3f3c1ae7654b29dc0e44084d374be73cd4a665f381d2bf772bfaf06b1a//zdf</item>
+        <item>rtmp://5.189.144.85/live?auth=8ec35ed863dbe4b1898589eb47773ba4858bbd33c22b6a6145946635a81f6942//ard</item>
+
+    </string-array>
 </resources>
