@@ -79,12 +79,10 @@ public class PlayerActivity extends AppCompatActivity implements SurfaceHolder.C
 
 	void showProgress() {
 		mProgress.setVisibility(View.VISIBLE);
-		Log.d(TAG, "SHOW");
 	}
 
 	void hideProgress() {
 		mProgress.setVisibility(View.GONE);
-		Log.d(TAG, "HIDE");
 	}
 
 	void playVideo() {
@@ -123,6 +121,16 @@ public class PlayerActivity extends AppCompatActivity implements SurfaceHolder.C
 	}
 
 	private void releaseMediaPlayer() {
+
+		if(mHolder != null) {
+			mHolder.removeCallback(this);
+		}
+
+		if(mPreview != null) {
+			mPreview.destroyDrawingCache();
+			mPreview.setVisibility(View.GONE);
+		}
+
 		if (mMediaPlayer != null) {
 			mMediaPlayer.release();
 			mMediaPlayer = null;
@@ -257,7 +265,11 @@ public class PlayerActivity extends AppCompatActivity implements SurfaceHolder.C
 	@Override
 	public boolean onError(MediaPlayer mp, int what, int extra) {
 		hideProgress();
+
 		Toast.makeText(this, "Erro ao abrir Stream", Toast.LENGTH_LONG).show();
+
+		finish();
+
 		return true;
 	}
 }

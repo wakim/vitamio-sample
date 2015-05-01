@@ -74,7 +74,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 			if(! uriText.isEmpty()) {
 				playVideo(uriText);
 			} else {
+				int selectedPosition = mSpinner.getSelectedItemPosition();
+
+				if(! ((ArrayAdapter<String>) mSpinner.getAdapter()).isEnabled(selectedPosition)) {
+					return;
+				}
+
 				String selectedUri = (String) mSpinner.getSelectedItem();
+				mSpinner.getSelectedItemPosition();
+
 				playVideo(selectedUri);
 			}
 		}
